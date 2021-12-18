@@ -1,0 +1,89 @@
+body {
+    background-image: url(bac.png);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: goldenrod;
+    text-shadow: rgb(53, 39, 3) 4px 4px 6px;
+    font-family: 'Lobster', cursive;
+
+
+}
+
+h1::after {
+    content: " ***";
+    font-size: 4rem;
+}
+
+h1::before {
+    content: " ***";
+    font-size: 4rem;
+}
+
+main {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+div {
+    display: inline-block;
+    width: 13%;
+    background-color: aliceblue;
+    border: 1px solid black;
+    font-size: 16px;
+    text-align: center;
+    padding: 5vh 0;
+    font-size: 1.5rem;
+
+}
+
+div:hover {
+    background-color: rgb(253, 209, 128);
+    cursor: pointer;
+}
+
+   
+
+.restricted:hover {
+    background-color: rgb(170, 114, 9);
+    cursor: default;
+}
+
+div p {
+    padding-top: 10px;
+}
+
+
+section {
+    font-size: 0px;
+}
+
+#calendarHeader div {
+    font-weight: bold;
+    background-color: goldenrod;
+    color: rgb(252, 250, 246);
+    text-shadow: rgb(78, 61, 17) 4px 4px 8px;
+    box-shadow: rgb(107, 84, 38) 8px 8px 10px;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding: 0px;
+    top: 10vh;
+    left: 35vw;
+    width: 30vw;
+    /* Full width */
+}
+
+.modal div {
+    width: 100%;
+}
